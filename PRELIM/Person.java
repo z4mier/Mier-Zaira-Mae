@@ -9,7 +9,6 @@ public class Person {
     private String address;
 
     public Person() {
-        // Default constructor
     }
 
     public Person(String firstName, String middleName, String lastName, int age, String birthday, String address) {
@@ -93,7 +92,7 @@ public class Person {
         String lastName = scanner.nextLine();
         System.out.print("Age: ");
         int age = scanner.nextInt();
-        scanner.nextLine(); // Consume the newline character
+        scanner.nextLine(); 
         System.out.print("Birthday: ");
         String birthday = scanner.nextLine();
         System.out.print("Address: ");
